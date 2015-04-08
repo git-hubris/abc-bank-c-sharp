@@ -8,7 +8,7 @@ namespace AbcBank
 {
     public class MaxiSavings : Account
     {
-        public override double InterestEarned()
+        public override double interestEarned()
         {
             double amount = SumTransactions();
             if (amount <= 1000)

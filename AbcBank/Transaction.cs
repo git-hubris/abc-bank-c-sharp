@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,7 +15,7 @@ namespace AbcBank
         public Transaction(double amount)
         {
             this.amount = amount;
-            this.transactionDate = DateProvider.getInstance().now();
+            this.transactionDate = DateProvider.getInstance().Now();
         }
 
     }
